@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #CCCCCC;
+}
+
+#banner {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+p#mission {
+    font-size: 20px;
+}
+
+em > strong {
+    color: red;
+}
+
+ul > li {
+    font-style:italic;
+}
