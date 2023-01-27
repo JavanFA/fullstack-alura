@@ -2,14 +2,22 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #CCCCCC;
+}
+
+h1 {
+    padding-left: 20px;
 }
 
 #banner {
     width: 100%;
 }
 
-h1 {
+div.prin {
+    background-color: #CCCCCC;
+    padding: 30px;
+}
+
+.central {
     text-align: center;
 }
 
@@ -25,6 +33,22 @@ em > strong {
     color: red;
 }
 
+div.bene {
+    background-color: white;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    padding-right: 15px;
+}
+
 ul > li {
     font-style:italic;
+}
+
+#beneficios {
+    width: 50%;
 }
