@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,13 +28,37 @@
     <main>
         <form>
             <label for="nomesobrenome">Nome e sobrenome</label>
-            <input type="text" id="nomesobrenome">
+            <input type="text" id="nomesobrenome" class="input-padrao">
 
             <label for="email">Email</label>
-            <input type="text" id="email">
+            <input type="text" id="email" class="input-padrao">
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone">
+            <input type="text" id="telefone" class="input-padrao">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="" cols="70" rows="10" class="input-padrao"></textarea>
+
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp">Whatsapp</label>
+                
+            </div>
+
+            <div>
+                <p>Qual Horário prefere ser atendido?</p>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </div>
+
+            <label for=""><input type="checkbox" class="checkbox">Gostaria de receber nosssas novidades por email?</label>
 
             <input type="submit" value="Enviar formulário">
         </form>
